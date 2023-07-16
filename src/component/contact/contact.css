@@ -1,0 +1,89 @@
+.contact__container {
+  display: grid;
+  grid-template-columns: 20% 60%;
+  column-gap: 1.2rem;
+  padding: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__title {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.contact__options {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  height: 100%;
+}
+
+
+.contact__option {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top:60px ;
+}
+.contact__options a {
+  text-decoration: none;
+}
+
+.form .form__item1 {
+  grid-area: first;
+}
+.form .form__item2 {
+  grid-area: first2;
+}
+.form .form__item3 {
+  grid-area: second;
+}
+.form .form__item4 {
+  grid-area: third;
+}
+.form .form__item5 {
+  grid-area: last;
+}
+
+.form {
+  display: grid;
+  grid-template-areas:
+    "first first2"
+    "second second"
+    "third third"
+    "last last";
+  gap: 1rem;
+}
+
+.form__item input[type="text"],
+[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: transparent;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.form__item textarea {
+  height: 20rem;
+  max-inline-size: inherit;
+  max-width: 100%;
+  width: 100%;
+  resize: none;
+}
+.form__item5 {
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  border: transparent;
+  font-size: medium;
+}
+
+.option__icon {
+  font-size: x-large;
+}
